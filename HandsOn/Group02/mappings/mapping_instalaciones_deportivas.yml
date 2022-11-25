@@ -67,7 +67,7 @@ mappings:
   triplesmap4:
     sources:
       - [./csv/instalacionesDeportivas_analizado.csv~csv]
-    s: nso:Equipamiento$(equipamiento_cleaned1)
+    s: nso:Equipamiento$(equipamiento_cleaned)
     po:
       - [a, ns:Equipamiento]
       - [ns:sePractica, $(deporte)]
